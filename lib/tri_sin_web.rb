@@ -1,8 +1,8 @@
 class Triangle
   def initialize(a,b,c)
-    @a = a
-    @b = b
-    @c = c
+    @a = a.to_i
+    @b = b.to_i
+    @c = c.to_i
   end
 
   def triangle?
